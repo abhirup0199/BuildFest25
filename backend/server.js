@@ -14,7 +14,7 @@ const app = express();
 // Configure CORS for production
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-app.onrender.com', 'http://localhost:3000'] 
+    ? ['https://narrative-dashboard-frontend.onrender.com', 'http://localhost:3000'] 
     : 'http://localhost:3000',
   credentials: true
 }));
